@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/c69c2d2161.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Digital Marketer</p>
+                <h3>Hi I'm <span>Josphine Gatwiri</span>   <br> From Kenya</h3>
+            </div>
+        </div>
+        
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Static/images/jeffery-erhunse-jgmkHfvbj8I-unsplash.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto odio, 
+                       placeat pariatur, facilis iusto veritatis aut corrupti repellendus officia eligendi,
+                       libero dicta in alias voluptatem deserunt asperiores. Eaque molestiae aspernatur 
+                       aut accusantium, ipsa id excepturi vitae hic exercitationem animi laborum magni 
+                       sunt doloribus quis rem ullam quas soluta. Quo, reiciendis iste. Tenetur obcaecati 
+                       magni odio dolor saepe ea fugit repellendus architecto omnis optio nisi aut 
+                       exercitationem, suscipit, nam, doloribus dolorum deleniti. Accusantium aspernatur
+                        necessitatibus laudantium quisquam hic quae eveniet vel quas culpa 
+                        voluptatem natus quod corrupti officia veritatis ad, sunt tempora beatae.
+                         Quod, obcaecati. Numquam dolores voluptatem perferendis exercitationem!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span> Digital Marketing</span> <br>  promoting products or services using digital devices </li>
+                            <li> <span> Web Development</span><br> Designing & Developing Websites</li>
+                            <li> <span> UI/UX </span> <br> Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span> 2021- current</span> <br>  promoting products or services using digital devices </li>
+                            <li> <span>2022- current</span><br> Designing & Developing Websites</li>
+                            <li> <span>2021-2022 </span> <br>Internship at FinnTech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>2021-current </span> <br>Masinde Muliro University Of Science and Technology </li>
+                            <li> <span>2022  </span> <br> FinnTech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, cumque.</p>
+                    <a href="#"> learn more</a>
+                </div> 
+                <div> 
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, cumque.</p>
+                    <a href="#"> learn more</a>
+                </div> 
+                <div> 
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, cumque.</p>
+                    <a href="#"> learn more</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Static/images/ui-ux-design-id-card-psd-template-free.jpg ">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, harum?</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work" id="middle">
+                    <img src="Static/images/R.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, harum?</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Static/images/R (1).jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, harum?</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <!-- contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i> josphinegatwiri34@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i>0796660754</p>
+                    <div class="social-icons">
+                        <a href=""> <i class="fab fa-linkedln"></i></a>
+                        <a href="https://facebook.com"> <i class="fab fa-facebook"></i></a>
+                        <a href=""> <i class="fab fa-twitter-square"></i></a>
+                        <a href=""> <i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right"> 
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit " class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script src="script/script.js"></script>
+</body>
+</html> 
